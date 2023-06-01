@@ -23,6 +23,7 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/work_sans_medium"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -39,6 +40,7 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/work_sans_medium"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -55,6 +57,7 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/work_sans_medium"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -71,6 +74,7 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/work_sans_medium"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -126,6 +130,9 @@
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginTop="15dp"
+        android:background="#F1EEEA"
+        android:fontFamily="@font/work_sans"
+        android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
         app:layout_constraintTop_toBottomOf="@+id/btnAddInstructions" />
@@ -135,6 +142,7 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/work_sans_medium"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -156,5 +164,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="388dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:alpha="0.2"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/txtViewRecipeArea"
+        app:layout_constraintEnd_toEndOf="@+id/txtViewRecipeArea"
+        app:layout_constraintStart_toStartOf="@+id/txtViewRecipeArea"
+        app:layout_constraintTop_toTopOf="@+id/txtViewRecipeArea"
+        app:srcCompat="@drawable/cooking" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
